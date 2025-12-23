@@ -12,11 +12,18 @@ export default function DesignReviewSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Design Review of Existing Solutions
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl">
-            A comprehensive analysis of competitor products and existing solutions
-            to identify design patterns, strengths, and opportunities for
-            improvement.
-          </p>
+          <div className="space-y-3 text-xl text-gray-600 max-w-3xl leading-relaxed">
+              <p>
+              I analysed market leaders like Fig and AllergyForce.
+            </p>
+            <p>
+              <strong>Insight:</strong> These apps rely on barcodes or manual text entry. They are highly accurate but socially intrusive.
+            </p>
+            <p>
+              <strong>Opportunity:</strong> There is no "shazam for food" that allows for discreet checking in a social environment.
+            </p>
+          </div>
+
         </div>
 
         <div className="space-y-16">

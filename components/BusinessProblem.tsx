@@ -11,16 +11,13 @@ export default function BusinessProblem() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {businessProblem.title}
           </h2>
-          {businessProblem.description.map((text, index) => (
-            <p
-              key={index}
-              className={`text-xl text-gray-600 max-w-3xl leading-relaxed ${
-                index < businessProblem.description.length - 1 ? "mb-3" : ""
-              }`}
-            >
-              {renderTextWithBold(text)}
-            </p>
-          ))}
+          <div className="space-y-3 text-xl text-gray-600 max-w-3xl leading-relaxed">
+            {businessProblem.description.map((text, index) => (
+              <p key={index}>
+                {renderTextWithBold(text)}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </section>
