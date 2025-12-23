@@ -12,7 +12,7 @@ export default function UsabilityTestingScenario() {
           </h2>
         </div>
 
-        <div className="bg-gray-50 border-l-4 border-teal-600 rounded-r-lg p-8 md:p-10 max-w-4xl">
+        <div className="bg-gray-50 border-l-4 border-yellow-600 rounded-r-lg p-8 md:p-10 max-w-4xl">
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p className="text-lg font-medium text-gray-900 mb-4">
               {usabilityScenario.prompt}
