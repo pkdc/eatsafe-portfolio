@@ -12,6 +12,12 @@ export default function UsabilityTestingScenario() {
           </h2>
         </div>
 
+        <div className="mb-12">
+          <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
+            {usabilityScenario.subtitle}
+          </p>
+        </div>
+
         <div className="bg-gray-50 border-l-4 border-yellow-600 rounded-r-lg p-8 md:p-10 max-w-4xl">
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p className="text-lg font-medium text-gray-900 mb-4">

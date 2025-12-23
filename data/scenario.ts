@@ -1,5 +1,6 @@
 export interface UsabilityScenario {
   title: string;
+  subtitle: string;
   prompt: string;
   description: string;
   allergies: string[];
@@ -10,6 +11,7 @@ export interface UsabilityScenario {
 
 export const usabilityScenario: UsabilityScenario = {
   title: "Usability Testing Scenario",
+  subtitle: 'I initially designed "EatSafe" as a medical safety device for severe allergy sufferers.',
   prompt: "Imagine yourself in a scenario:",
   description:
     "You have food allergy on seafood and egg, and you are having dinner in a friend's home, but you don't want your friend to know that you have food allergy and you don't want to seem rude to interrogate your friend for every ingredient.",

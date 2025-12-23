@@ -13,6 +13,12 @@ export default function UserJourney() {
           </h2>
         </div>
 
+        <div className="mb-12">
+          <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
+            {userJourney.subtitle}
+          </p>
+        </div>
+
         <div className="flex justify-center">
           <div className="w-full max-w-5xl">
             <div className="bg-gray-50 rounded-lg p-4 md:p-8">

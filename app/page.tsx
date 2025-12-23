@@ -14,9 +14,9 @@ export default function Home() {
       <BusinessProblem />
       <DesignReviewSection />
       <UsabilityTestingScenario />
-      <UserResearch />
       <UserJourney />
       <SolutionShowcase />
+      <UserResearch />
     </main>
   );
 }
