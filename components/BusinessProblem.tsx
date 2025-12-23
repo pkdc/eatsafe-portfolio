@@ -1,6 +1,7 @@
 "use client";
 
 import { businessProblem } from "@/data/businessProblem";
+import { renderTextWithBold } from "@/app/utils/text";
 
 export default function BusinessProblem() {
   return (
@@ -17,7 +18,7 @@ export default function BusinessProblem() {
                 index < businessProblem.description.length - 1 ? "mb-3" : ""
               }`}
             >
-              {text}
+              {renderTextWithBold(text)}
             </p>
           ))}
         </div>
