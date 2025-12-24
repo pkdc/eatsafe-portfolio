@@ -70,6 +70,6 @@ export const solution: Solution = {
     },
   ],
   demoLink: "https://eatsafe-concept.vercel.app/",
-  demoLabel: "Try Interactive Prototype (Best viewed on mobile)",
+  demoLabel: "Try Interactive Prototype",
 };
 
