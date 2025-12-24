@@ -32,3 +32,4 @@ export const userResearch: UserResearch = {
   researchImageAlt: "EatSafe User Research findings",
 };
 
+

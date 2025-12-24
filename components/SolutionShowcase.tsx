@@ -36,7 +36,11 @@ export default function SolutionShowcase() {
                   <h4 className="text-sm font-semibold text-gray-900 mb-2 uppercase tracking-wide">
                     Key Innovation
                   </h4>
-                  <p className="text-base">{solution.keyInnovation}</p>
+                  <p className="text-base mb-3">{solution.keyInnovation}</p>
+                  <p className="text-base">{solution.demoLabel}</p>
+                  <a href={solution.demoLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+                    View the Live Result
+                  </a>
                 </div>
 
                 <div>

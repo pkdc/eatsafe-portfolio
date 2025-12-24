@@ -16,6 +16,8 @@ export interface Solution {
   overview: string;
   keyInnovation: string;
   steps: SolutionStep[];
+  demoLink: string;
+  demoLabel: string;
 }
 
 export const solution: Solution = {
@@ -67,5 +69,7 @@ export const solution: Solution = {
         "UI transitions to a 'Success' state, confirming data capture",
     },
   ],
+  demoLink: "https://eatsafe-mvp.vercel.app/",
+  demoLabel: "Try Interactive Prototype (Best viewed on mobile)",
 };
 
