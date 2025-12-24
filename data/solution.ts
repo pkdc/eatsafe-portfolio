@@ -47,7 +47,7 @@ export const solution: Solution = {
     `To test the 'entry point' of the experience, I prototyped the image upload and processing states in code. This allowed me to evaluate
     the interaction cost of uploading a photo versus the potential value, before committing to building the complex analysis logic.`,
   keyInnovation:
-    `I utilised a 'Figma-to-Code' workflow (via Cursor and MCP) to instantly translate the upload UI components into working React code.
+    `I utilised an AI-integrated workflow (Figma → Cursor via MCP) to translate design nodes into working React code.
     This allowed me to verify the visual feedback loop (Upload → Loading State) in a live browser environment with zero manual coding time.`,
   steps: [
     {
@@ -69,7 +69,7 @@ export const solution: Solution = {
         "UI transitions to a 'Success' state, confirming data capture",
     },
   ],
-  demoLink: "https://eatsafe-mvp.vercel.app/",
+  demoLink: "https://eatsafe-concept.vercel.app/",
   demoLabel: "Try Interactive Prototype (Best viewed on mobile)",
 };
 
