@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { userResearch } from "@/data/userResearch";
+import { renderTextWithBold } from "@/app/utils/text";
 
 export default function UserResearch() {
   return (
@@ -54,7 +55,7 @@ export default function UserResearch() {
         <div className="bg-gray-50 border-l-4 border-red-600 p-6 rounded-r-lg max-w-4xl">
           <div className="space-y-3 text-base text-gray-700 leading-relaxed">
             {userResearch.conclusion.map((text, index) => (
-                <p key={index}>{text}</p>
+                <p key={index}>{renderTextWithBold(text)}</p>
             ))}
           </div>
         </div>
