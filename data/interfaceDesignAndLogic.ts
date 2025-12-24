@@ -51,7 +51,7 @@ export const interfaceDesignAndLogic: InterfaceDesignAndLogic = {
             {
               label: "Content-First:",
               description:
-                "Evolved directly from content mapping to high-fidelity screens, prioritizing information hierarchy over decoration.",
+                "Evolved directly from content mapping to high-fidelity screens, prioritising information hierarchy over decoration.",
             },
             {
               label: "State Definition:",
